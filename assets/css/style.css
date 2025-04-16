@@ -1,9 +1,4 @@
-/**
-  * Name: Open9 | NFT Marketplace HTML Template
-  * Version: 1.0.1
-  * Author: Themesflat
-  * Author URI: http://www.themesflat.com
-*/
+
 @import "../icon/icon.css";
 @import "shortcodes.css";
 @import "responsive.css";
@@ -12,25 +7,7 @@
 @import "swiper-bundle.min.css";
 @import "../font/font.css";
 @import "bootstrap.css";
-/**
-  	* Reset Browsers
-    * General
-	* Elements
-  	* Forms
-	* Typography
-	* Extra classes
-	* link style
-	* header
-    * footer
-    * header section
-    * mobile
-    * cusor
-    * preload
 
-*/
-
-/* Reset Browsers
--------------------------------------------------------------- */
 html,
 body,
 div,
