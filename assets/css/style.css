@@ -1013,7 +1013,7 @@ label.error {
     margin-bottom: 30px;
 }
 .tf-color {
-    color: #DDF247 !important;
+    color: #FFFFFF !important;
 }
 .divider {
     width: 100%;
@@ -1064,7 +1064,7 @@ a {
 
 a:hover,
 a:focus {
-    color             : #DDF247;
+    color             : #FFFFFF;
     text-decoration   : none;
     outline           : 0;
     -webkit-transition: all 0.3s ease-in-out;
@@ -1243,12 +1243,12 @@ a:focus {
 #main-nav>ul>li:hover>a,
 #main-nav>.menu>li:hover>a::after,
 #main-nav>.menu>li.current-menu-item>a::after {
-    color: #E2FE26;
+    color: #FFFFFF;
     opacity: 1;
 }
 
 #main-nav>ul>li.current-menu-item>a {
-    color: #E2FE26;
+    color: #FFFFFF;
     font-weight: 800;
 }
 
@@ -1298,7 +1298,7 @@ a:focus {
 
 #main-nav .sub-menu li.current-item > a,
 #main-nav .sub-menu li a:hover {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 #main-nav>ul>li .sub-menu li {
@@ -1356,7 +1356,7 @@ a:focus {
 }
 
 .header_1.style-white .tf-button:hover {
-    background-color: #DDF247;
+    background-color: #f6f7f3;
 }
 
 .header_1.style-white #main-nav>ul>li>a {
@@ -1417,7 +1417,7 @@ a:focus {
 }
 
 .header_1.header-full #wallet-header a:hover {
-    background: #DDF247;
+    background: #FFFFFF;
 }
 
 /* Mobile Menu Button */
@@ -1525,7 +1525,7 @@ a:focus {
 }
 
 .widget-menu ul li a:hover {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 .background-white .widget-menu ul li a:after {
@@ -1537,7 +1537,7 @@ a:focus {
     width             : 0;
     height            : 1px;
     position          : absolute;
-    background        : #DDF247;
+    background        : #FFFFFF;
     left              : 50%;
     bottom            : 0;
     transform         : translateX(-50%);
@@ -1643,7 +1643,7 @@ a:focus {
 }
 
 .footer-bottom ul li a:hover {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 /* style-1 */
@@ -1807,7 +1807,7 @@ a:focus {
 }
 
 .tf-button.style-1.type-1:hover {
-    background-color: #DDF247;
+    background-color: #FFFFFF;
     color: #161616;
 }
 
@@ -1864,7 +1864,7 @@ a:focus {
 .section-menu-left .list-menu > ul > li > a:hover {
     box-shadow: 0px 4px 20px 0px rgba(221, 242, 71, 0.30);
     color: #161616;
-    background: #DDF247;
+    background: #FFFFFF;
 }
 
 .section-menu-left .list-menu > ul > li.has-item > a::before {
@@ -1939,10 +1939,10 @@ a:focus {
 }
 
 .section-menu-left .list-menu ul.sub-item li:hover::before {
-    background-color: #DDF247;
+    background-color: #FFFFFF;
 }
 .section-menu-left .list-menu ul.sub-item li:hover a {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 .section-menu-left .language ul.sub-item {
@@ -2002,7 +2002,7 @@ a:focus {
 
 .section-menu-left .create a.tf-button.active {
     color: #161616;
-    background-color: #DDF247;
+    background-color: #FFFFFF;
 }
 
 .section-menu-left .content h6 {
@@ -2043,7 +2043,7 @@ a:focus {
     content: "";
     top: 50%;
     left: 0;
-    background-color: #DDF247;
+    background-color: #FFFFFF;
     border-radius: 999px;
     transform: translate(-50%, -50%);
     -webkit-transition: all 0.3s ease;
@@ -2061,7 +2061,7 @@ a:focus {
 
 .section-menu-left ul.menu-tab li.active,
 .section-menu-left ul.menu-tab li:hover {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 .section-menu-left ul.menu-tab li svg {
@@ -2259,7 +2259,7 @@ a:focus {
 #menu-mobile-menu li.current-menu-item > a ,
 #menu-mobile-menu li a:hover ,
 #menu-mobile-menu li.current-item a {
-    color: #DDF247;
+    color: #FFFFFF;
 }
 
 #menu-mobile-menu li.menu-item-has-children-mobile > a::after {
@@ -2417,7 +2417,7 @@ animation-delay: 0.8s;
     line-height: 44px;
     font-size: 16px;
     font-weight: 900;
-    color: #DDF247;
+    color: #FFFFFF;
     left: 0;
     top: 0;
     height: 44px;
@@ -2444,7 +2444,7 @@ animation-delay: 0.8s;
   
 .progress-wrap svg.progress-circle path {
     box-sizing: border-box;
-    stroke: #DDF247;
+    stroke: #FFFFFF;
     stroke-width: 5;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2473,7 +2473,7 @@ animation-delay: 0.8s;
     width: 8px;
     height: 8px;
     z-index: 10000;
-    background-color: #DDF247;
+    background-color: #FFFFFF;
     -webkit-transition: width .5s ease-in-out, height .5s ease-in-out, margin .5s ease-in-out, opacity .5s ease-in-out;
     transition: width .5s ease-in-out, height .5s ease-in-out, margin .5s ease-in-out, opacity .5s ease-in-out
 }
@@ -2483,7 +2483,7 @@ animation-delay: 0.8s;
     margin-top: -40px;
     width: 80px;
     height: 80px;
-    background-color: #DDF247;
+    background-color: #FFFFFF;
     opacity: .3
 }
 
@@ -2492,7 +2492,7 @@ animation-delay: 0.8s;
     margin-top: -22px;
     width: 40px;
     height: 40px;
-    border: 2px solid #DDF247;
+    border: 2px solid #FFFFFF;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 10000;
