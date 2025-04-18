@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/icon/Favicon.png">
+    <!-- <link rel="shortcut icon" href="assets/icon/Favicon.png"> -->
 </head>
 <style>
     @keyframes scrollText {
@@ -50,6 +50,38 @@
         100% {
             transform: translateX(-100%);
         }
+    }
+    .visitor-counter {
+        margin: 15px 0;
+    }
+    
+    .counter-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .counter-graph {
+        width: 100px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+    
+    .digit-container {
+        display: flex;
+    }
+    
+    .digit {
+        width: 25px;
+        height: 35px;
+        background-color: #333;
+        color: white;
+        margin: 0 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-radius: 3px;
     }
     </style>
 
@@ -101,7 +133,7 @@
                                                 <a>Inicio</a>
                                             </li>
                                             <li class="menu-item">
-                                                <a href="about-us.html">About us</a>
+                                                <a href="about-us.html">Contáctanos</a>
                                             </li>
                                         </ul>
                                     </nav><!-- /#main-nav -->
@@ -109,7 +141,7 @@
                                     <div class="flat-wallet flex">
                                         <div class="" id="wallet-header">
                                             <a href="market-wallet.html" id="connectbtn" class="tf-button style-1">
-                                                <span>Wallet connect</span>
+                                                <span>Nosotros</span>
                                                 <i class="icon-wa"></i>
                                             </a>
                                         </div>
@@ -141,7 +173,7 @@
                     <div class="inner-canvas-nav">
                         <div class="side-bar">
                             <a href="index.html" rel="home" class="main-logo">
-                                <img id="logo_header" src="assets/images/logo/logo.png" data-retina="assets/images/logo/logo@2x.png">
+                                <img id="logo_header" src="assets/images/logo/logouni.svg" data-retina="assets/images/logo/logouni.svg" style="width: 230px;">
                             </a>
                             <div class="canvas-nav-close">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
@@ -158,32 +190,26 @@
                                 <h5 class="title-widget">Categories</h5>
                                 <ul>
                                     <li>
-                                        <div class="cate-item"><a href="#">NFTs</a></div>
+                                        <div class="cate-item"><a href="#">Inicio</a></div>
                                         <div class="number">(1.483)</div>
                                     </li>
                                     <li>
-                                        <div class="cate-item"><a href="#">Digital Art</a></div>
+                                        <div class="cate-item"><a href="#">Nosotros</a></div>
                                         <div class="number">(97)</div>
                                     </li>
                                     <li>
-                                        <div class="cate-item"><a href="#">Crypto</a></div>
+                                        <div class="cate-item"><a href="#">Contactanos</a></div>
                                         <div class="number">(45)</div>
                                     </li>
                                     <li>
-                                        <div class="cate-item"><a href="#">Technology</a></div>
+                                        <div class="cate-item"><a href="#">Si te gusto dale like</a></div>
                                         <div class="number">(728)</div>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="widget widget-menu style-4">
-                                <h5 class="title-widget">Company</h5>
-                                <ul>
-                                    <li><a href="#">Help center</a></li>
-                                    <li><a href="#">Platform status</a></li>
-                                </ul>
-                            </div>
+                         
                             <div class="widget">
-                                <h5 class="title-widget">Join the community</h5>
+                                <h5 class="title-widget">Nuestas redes Sociales</h5>
                                 <div class="widget-social">
                                     <ul class="flex">
                                         <li><a href="#" class="icon-facebook"></a></li>
@@ -201,7 +227,7 @@
                     <div class="overlay-mobile-nav"></div>
                     <div class="inner-mobile-nav">
                         <a href="index.html" rel="home" class="main-logo">
-                            <img id="mobile-logo_header" src="assets/images/logo/logo.png" data-retina="assets/images/logo/logo@2x.png">
+                            <img id="mobile-logo_header" src="assets/images/logo/logouni.svg" data-retina="assets/images/logo/logouni.svg" style="width: 230px;">
                         </a>
                         <div class="mobile-nav-close">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
@@ -315,7 +341,7 @@
                                     Proyecto de Tesis 2025-I
                                 </h1>
                                 <p data-wow-delay="0.1s" class="wow fadeInUp" style="color: white;font-size: 22px;">
-                                    Proponemos una solución digital que moderniza la forma en que se gestionan, documentan y supervisan los proyectos de tesis, desde su planteamiento hasta su sustentación para poder ayudar a los que están logrando una gran Tesis.
+                                    Proponemos una solución digital que moderniza la forma en que se gestionan, documentan y supervisan los proyectos de tesis, desde su planteamiento hasta su sustentación para poder ayudar a realizar un buen trabajo de investigación.
                                 </p>
                                 <div data-wow-delay="0.2s" class="wow fadeInUp flat-button flex justify-center">
                                     <a
@@ -323,15 +349,21 @@
                                     class="tf-button style-1 h50 w190 mr-30"
                                     style="display: inline-flex; align-items: center; justify-content: center;"
                                   >
-                                    REPOSITORIO DE PROYECTO
-                               
+                                    REPOSITORIO PROYECTO
                                     <img 
                                     src="assets/images/logo/github.png" 
                                     alt="GitHub Logo" 
                                     style="height: 40px; margin-left: 2px;"
                                   />
                                   </a>
-                                    <a href="#" class="tf-button style-1 h50 w190 active">LINKEDIN<i class="icon-arrow-up-right2"></i></a>
+                                    <a href="#" class="tf-button style-1 h50 w190 active">
+                                        LINKEDIN 
+                                        <img 
+                                        src="assets/images/logo/linkendin2.png" 
+                                        alt="GitHub Logo" 
+                                        style="height: 40px; "
+                                      />
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -371,11 +403,11 @@
                                         <div class="tf-card-box style-3">
                                             <div class="card-media">
                                                 <a href="#">
-                                                    <img src="assets/images/box-item/2.png" alt="">
+                                                    <img src="assets/images/box-item/10.png" alt="">
                                                 </a>
                                             </div>
                                             <div class="button-place-bid">
-                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Place Bid</span></a>
+                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Abrir</span></a>
                                             </div>
                                           
                                         </div>
@@ -384,11 +416,11 @@
                                         <div class="tf-card-box style-3">
                                             <div class="card-media">
                                                 <a href="#">
-                                                    <img src="assets/images/box-item/6.png" alt="">
+                                                    <img src="assets/images/box-item/11.png" alt="">
                                                 </a>
                                             </div>
                                             <div class="button-place-bid">
-                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Place Bid</span></a>
+                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Abrir</span></a>
                                             </div>
                                            
                                         </div>
@@ -401,7 +433,7 @@
                                                 </a>
                                             </div>
                                             <div class="button-place-bid">
-                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Place Bid</span></a>
+                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Abrir</span></a>
                                             </div>
                                           
                                         </div>
@@ -416,7 +448,7 @@
                                                 </a>
                                             </div>
                                             <div class="button-place-bid">
-                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Place Bid</span></a>
+                                                <a href="#" data-toggle="modal" data-target="#popup_bid" class="tf-button"><span>Abrir</span></a>
                                             </div>
                                           
                                         </div>
@@ -474,41 +506,186 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             border: 2px solid #333;
-        ">SEMANA</th>
+        ">SEMANAS</th>
         
         <th style="background-color: #222; color: #fff; font-size: 16px; font-weight: 600; text-align: center; padding: 18px 12px; position: sticky; top: 0; z-index: 10; text-transform: uppercase; letter-spacing: 1px; border: 1px solid #333;">Temas</th>
         <th style="background-color: #222; color: #fff; font-size: 16px; font-weight: 600; text-align: center; padding: 18px 12px; position: sticky; top: 0; z-index: 10; text-transform: uppercase; letter-spacing: 1px; border: 1px solid #333;">Clases</th>
         <th style="background-color: #222; color: #fff; font-size: 16px; font-weight: 600; text-align: center; padding: 18px 12px; position:sticky; top: 0; z-index: 10; text-transform: uppercase; letter-spacing: 1px; border: 1px solid #333;">Trabajos</th>
         <th style="background-color: #222; color: #fff; font-size: 16px; font-weight: 600; text-align: center; padding: 18px 12px; position: sticky; top: 0; z-index: 10; text-transform: uppercase; letter-spacing: 1px; border: 1px solid #333;">Observaciones</th>
-        <th style="background-color: #222; color: #fff; font-size: 16px; font-weight: 600; text-align: center; padding: 18px 12px; position: sticky; top: 0; z-index: 10; text-transform: uppercase; letter-spacing: 1px; border: 1px solid #333;">Material</th>
+       
       </tr>
     </thead>
     <tbody>
       <!-- SEMANA 1 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">1°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Presentación del Curso</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
-            <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°1
-          </a>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">
+            PRESENTACION DEL CURSO
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #ff9db0; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #ff9db0;">
-            <i class="fas fa-file-alt" style="margin-right: 5px; vertical-align: middle;"></i> TESIS II - Milagros Naivarte
-          </a>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/zoom.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">ZOOM</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/notas.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">NOTAS</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
         </td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Introducción al curso</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> Silabo
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/word.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">Word</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/word.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">Word</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
         </td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/iconimagen2.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">IMAGEN</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img 
+                                    src="assets/images/box-item/iconimagen3.png" 
+                                    alt="word" 
+                                    style="height: 40px; margin-left: 8px;"
+                                  />
+                    <span class="inner">IMAGEN</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item">
+                        <div class="sort-filter active">
+                            <span>All</span>
+                        
+                        </div>
+                    </a>
+                    <a class="dropdown-item">
+                        <div class="sort-filter">
+                            <span>Art</span>
+                          
+                        </div>
+                    </a>
+                   
+                </div>
+            </div>
+        </td>
+     
       </tr>
       <!-- SEMANA 2 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">2°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Capítulo 1: Visión del Proyecto</td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">Capítulo 1: Visión del Proyecto</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
+          <a href="#" style="color: #FFFFFF; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #FFFFFF;">
             <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°2
           </a>
         </td>
@@ -518,16 +695,14 @@
           </a>
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Revisión de literatura</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> Guías
-        </td>
+       
       </tr>
       <!-- SEMANA 3 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">3°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Capítulo 1: Revisión de avances</td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">Capítulo 1: Revisión de avances</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
+          <a href="#" style="color: #FFFFFF; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #FFFFFF;">
             <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°3
           </a>
         </td>
@@ -537,35 +712,31 @@
           </a>
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Feedback grupal</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> Lecturas
-        </td>
+  
       </tr>
       <!-- SEMANA 4 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">4°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Capítulo 2: Requerimientos del Proyecto</td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">FERIADO</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
-            <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°4
+          <a href="#" style="color: #FFFFFF; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #FFFFFF;">
+            <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i>SEMANA SANTA
           </a>
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
           <a href="#" style="color: #ffcc00; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #ffcc00;">
-            <i class="fas fa-file-alt" style="margin-right: 5px; vertical-align: middle;"></i> Análisis preliminar
+            <i class="fas fa-file-alt" style="margin-right: 5px; vertical-align: middle;"></i> JUEVES SANTOS
           </a>
         </td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Definición alcances</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> Plantillas
-        </td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">VIERNES SANTOS</td>
+       
       </tr>
       <!-- SEMANA 5 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">5°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Capítulo 2: Especificación de Requisitos</td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">Capítulo 2: Especificación de Requisitos</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
+          <a href="#" style="color: #FFFFFF; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #FFFFFF;">
             <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°5
           </a>
         </td>
@@ -575,16 +746,14 @@
           </a>
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Metodología empleada</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> IEEE 830
-        </td>
+     
       </tr>
       <!-- SEMANA 6 -->
       <tr>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-weight: bold; font-size: 20px; color: #ffcc00; width: 80px;">6°</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #64c8e6;">Capítulo 3: Análisis y Diseño</td>
+        <td style="padding: 20px 15px; border: 1px solid #333; text-align: left; vertical-align: middle; height: 80px; transition: all 0.3s ease; font-size: 15px; color: #FFFFFF;">Capítulo 3: Análisis y Diseño</td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <a href="#" style="color: #64c8e6; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #64c8e6;">
+          <a href="#" style="color: #FFFFFF; text-decoration: none; transition: all 0.3s ease; display: inline-block; margin: 5px 0; padding: 5px 10px; border-radius: 4px; background-color: rgba(255, 255, 255, 0.1); border-left: 3px solid #FFFFFF;">
             <i class="fas fa-file-powerpoint" style="margin-right: 5px; vertical-align: middle;"></i> CLASE N°6
           </a>
         </td>
@@ -594,9 +763,7 @@
           </a>
         </td>
         <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">Modelado inicial</td>
-        <td style="padding: 20px 15px; border: 1px solid #333; text-align: center; vertical-align: middle; height: 80px; transition: all 0.3s ease;">
-          <i class="fas fa-book" style="margin-right: 5px; vertical-align: middle;"></i> UML 2.5
-        </td>
+      
       </tr>
     </tbody>
   </table>
@@ -605,533 +772,11 @@
                 </div>
             </div>
 
-       <div class="col-md-12 pb-30">
-                            <div class="tf-soft flex items-center justify-between">
-                                <div class="soft-left">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <span class="inner">Category</span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter active">
-                                                    <span>All</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Art</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Photography</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Music</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M17.5 6.25L15.625 5.15583M17.5 6.25V8.125M17.5 6.25L15.625 7.34417M2.5 6.25L4.375 5.15583M2.5 6.25L4.375 7.34417M2.5 6.25V8.125M10 10.625L11.875 9.53083M10 10.625L8.125 9.53083M10 10.625V12.5M10 18.125L11.875 17.0308M10 18.125V16.25M10 18.125L8.125 17.0308M8.125 2.96833L10 1.875L11.875 2.96917M17.5 11.875V13.75L15.625 14.8442M4.375 14.8442L2.5 13.75V11.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <span class="inner">Items</span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter active">
-                                                    <span>All</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Art</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Photography</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Music</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M11.25 14.0625H14.0625M14.0625 14.0625H16.875M14.0625 14.0625V11.25M14.0625 14.0625V16.875M5 8.75H6.875C7.37228 8.75 7.84919 8.55246 8.20082 8.20082C8.55246 7.84919 8.75 7.37228 8.75 6.875V5C8.75 4.50272 8.55246 4.02581 8.20082 3.67417C7.84919 3.32254 7.37228 3.125 6.875 3.125H5C4.50272 3.125 4.02581 3.32254 3.67417 3.67417C3.32254 4.02581 3.125 4.50272 3.125 5V6.875C3.125 7.37228 3.32254 7.84919 3.67417 8.20082C4.02581 8.55246 4.50272 8.75 5 8.75ZM5 16.875H6.875C7.37228 16.875 7.84919 16.6775 8.20082 16.3258C8.55246 15.9742 8.75 15.4973 8.75 15V13.125C8.75 12.6277 8.55246 12.1508 8.20082 11.7992C7.84919 11.4475 7.37228 11.25 6.875 11.25H5C4.50272 11.25 4.02581 11.4475 3.67417 11.7992C3.32254 12.1508 3.125 12.6277 3.125 13.125V15C3.125 15.4973 3.32254 15.9742 3.67417 16.3258C4.02581 16.6775 4.50272 16.875 5 16.875ZM13.125 8.75H15C15.4973 8.75 15.9742 8.55246 16.3258 8.20082C16.6775 7.84919 16.875 7.37228 16.875 6.875V5C16.875 4.50272 16.6775 4.02581 16.3258 3.67417C15.9742 3.32254 15.4973 3.125 15 3.125H13.125C12.6277 3.125 12.1508 3.32254 11.7992 3.67417C11.4475 4.02581 11.25 4.50272 11.25 5V6.875C11.25 7.37228 11.4475 7.84919 11.7992 8.20082C12.1508 8.55246 12.6277 8.75 13.125 8.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <span class="inner">Status</span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter active">
-                                                    <span>All</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Art</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Photography</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span>Music</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 5V15M7.5 12.6517L8.2325 13.2008C9.20833 13.9333 10.7908 13.9333 11.7675 13.2008C12.7442 12.4683 12.7442 11.2817 11.7675 10.5492C11.28 10.1825 10.64 10 10 10C9.39583 10 8.79167 9.81667 8.33083 9.45083C7.40917 8.71833 7.40917 7.53167 8.33083 6.79917C9.2525 6.06667 10.7475 6.06667 11.6692 6.79917L12.015 7.07417M17.5 10C17.5 10.9849 17.306 11.9602 16.9291 12.8701C16.5522 13.7801 15.9997 14.6069 15.3033 15.3033C14.6069 15.9997 13.7801 16.5522 12.8701 16.9291C11.9602 17.306 10.9849 17.5 10 17.5C9.01509 17.5 8.03982 17.306 7.12987 16.9291C6.21993 16.5522 5.39314 15.9997 4.6967 15.3033C4.00026 14.6069 3.44781 13.7801 3.0709 12.8701C2.69399 11.9602 2.5 10.9849 2.5 10C2.5 8.01088 3.29018 6.10322 4.6967 4.6967C6.10322 3.29018 8.01088 2.5 10 2.5C11.9891 2.5 13.8968 3.29018 15.3033 4.6967C16.7098 6.10322 17.5 8.01088 17.5 10Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                            <span class="inner">Price range</span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter active">
-                                                    <span> Price: Low to High</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a class="dropdown-item">
-                                                <div class="sort-filter">
-                                                    <span> Price: High to Low</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="soft-right">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 5V15M7.5 12.6517L8.2325 13.2008C9.20833 13.9333 10.7908 13.9333 11.7675 13.2008C12.7442 12.4683 12.7442 11.2817 11.7675 10.5492C11.28 10.1825 10.64 10 10 10C9.39583 10 8.79167 9.81667 8.33083 9.45083C7.40917 8.71833 7.40917 7.53167 8.33083 6.79917C9.2525 6.06667 10.7475 6.06667 11.6692 6.79917L12.015 7.07417M17.5 10C17.5 10.9849 17.306 11.9602 16.9291 12.8701C16.5522 13.7801 15.9997 14.6069 15.3033 15.3033C14.6069 15.9997 13.7801 16.5522 12.8701 16.9291C11.9602 17.306 10.9849 17.5 10 17.5C9.01509 17.5 8.03982 17.306 7.12987 16.9291C6.21993 16.5522 5.39314 15.9997 4.6967 15.3033C4.00026 14.6069 3.44781 13.7801 3.0709 12.8701C2.69399 11.9602 2.5 10.9849 2.5 10C2.5 8.01088 3.29018 6.10322 4.6967 4.6967C6.10322 3.29018 8.01088 2.5 10 2.5C11.9891 2.5 13.8968 3.29018 15.3033 4.6967C16.7098 6.10322 17.5 8.01088 17.5 10Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                            </svg>
-                                        <span>Sort by: recently added</span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <h6>Sort by</h6>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter" href="#">
-                                                    <span>Recently added</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter active" href="#">
-                                                    <span>Price: Low to High</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter" href="#">
-                                                    <span>Price: High to Low</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter" href="#">
-                                                    <span>Auction ending soon</span>
-                                                    <span class="icon-tick"><span class="path2"></span></span>
-                                                </div>
-                                            </a>
+      
 
-                                            <h6>Options</h6>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter" href="#">
-                                                    <span>Auction ending soon</span>
-                                                    <input class="check" type="checkbox" value="checkbox" name="check" checked="">
-                                                </div>
-                                            </a>
-                                            <a href="#" class="dropdown-item">
-                                                <div class="sort-filter" href="#">
-                                                    <span>Show lazy minted</span>
-                                                    <input class="check" type="checkbox" value="checkbox" name="check" >
-                                                </div>
-                                            </a>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-            <div class="tf-section top-collections">
-                <div class="themesflat-container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-section pb-20">
-                                <h2 class="tf-title ">asdasdasd</h2>
-                                <a href="explore-3.html" class="">Discover more <i class="icon-arrow-right2"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="featured pt-10 swiper-container carousel3" data-swiper='{
-                                "loop":false,
-                                "slidesPerView": 1,
-                                "spaceBetween": 30,
-                                "observer": true,
-                                "observeParents": true,
-                                "breakpoints": {
-                                    "600": {
-                                        "slidesPerView": 2
-                                    },
-                                    "991": {
-                                        "slidesPerView": 3
-                                    }
-                                }
-                            }'>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t01.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl01.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc01.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br01.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t02.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl02.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc02.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br02.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t03.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl03.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc03.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br03.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t04.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br04.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t04.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br04.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="tf-card-collection style-2">
-                                            <a href="author-2.html">
-                                                <div class="media-images-collection">
-                                                    <img src="assets/images/box-item/img-collection-t04.jpg" alt="">
-                                                    <div class="img-bottom">
-                                                        <img src="assets/images/box-item/img-collection-bl04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-bc04.jpg" alt="">
-                                                        <img src="assets/images/box-item/img-collection-br04.jpg" alt="">
-                                                    </div>
-                                                    <div class="author-poster">
-                                                        <img src="assets/images/avatar/avatar-01.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <div class="card-bottom">
-                                                <div class="author">
-                                                    <h5><a href="author-1.html">Bored ape#21</a></h5>
-                                                    <div class="infor">@Themesflat</div>
-                                                </div>
-                                                <div class="bottom-right">
-                                                    <div class="shop"> 
-                                                        <div class="icon">
-                                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M16.875 6.25L16.3542 15.11C16.3261 15.5875 16.1166 16.0363 15.7685 16.3644C15.4204 16.6925 14.96 16.8752 14.4817 16.875H5.51833C5.03997 16.8752 4.57962 16.6925 4.23152 16.3644C3.88342 16.0363 3.6739 15.5875 3.64583 15.11L3.125 6.25M8.33333 9.375H11.6667M2.8125 6.25H17.1875C17.705 6.25 18.125 5.83 18.125 5.3125V4.0625C18.125 3.545 17.705 3.125 17.1875 3.125H2.8125C2.295 3.125 1.875 3.545 1.875 4.0625V5.3125C1.875 5.83 2.295 6.25 2.8125 6.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                            </svg>
-                                                        </div>
-                                                        <p>12 Item</p>
-                                                    </div>
-                                                    <div class="like">
-                                                        <span class="wishlist-button icon-heart"></span>
-                                                        <p>97 like</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tf-section action">
-                <div class="themesflat-container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="action__body">
-                                <div class="tf-tsparticles">
-                                        <div id="tsparticles1" data-color="#161616" data-line="#000"></div>
-                                    </div>
-                                <h2>Discover, create and sell your own NFT</h2>
-                                <div class="flat-button flex">
-                                    <a href="#" class="tf-button style-2 h50 w190 mr-10">Explore now<i class="icon-arrow-up-right2"></i></a>
-                                    <a href="#" class="tf-button style-2 h50 w230">Create your first NFT<i class="icon-arrow-up-right2"></i></a>
-                                </div>
-                                <div class="bg-home7">
-                                    <div class="swiper-container autoslider3reverse" data-swiper='{
-                                        "loop":true,
-                                        "slidesPerView": "auto",
-                                        "spaceBetween": 14,
-                                        "direction": "vertical",
-                                        "speed": 10000,
-                                        "observer": true,
-                                        "observeParents": true,
-                                        "autoplay": {
-                                            "delay": "0",
-                                            "disableOnInteraction": false
-                                        }
-                                    }'>
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-container autoslider4reverse" data-swiper='{
-                                        "loop":true,
-                                        "slidesPerView": "auto",
-                                        "spaceBetween": 14,
-                                        "direction": "vertical",
-                                        "speed": 10000,
-                                        "observer": true,
-                                        "observeParents": true,
-                                        "autoplay": {
-                                            "delay": "0",
-                                            "disableOnInteraction": false,
-                                            "reverseDirection": true
-                                        }
-                                    }'>
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-container autoslider3reverse" data-swiper='{
-                                        "loop":true,
-                                        "slidesPerView": "auto",
-                                        "spaceBetween": 14,
-                                        "direction": "vertical",
-                                        "speed": 10000,
-                                        "observer": true,
-                                        "observeParents": true,
-                                        "autoplay": {
-                                            "delay": "0",
-                                            "disableOnInteraction": false
-                                        }
-                                    }'>
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/images/item-background/bg-action-1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    
             
-            <!-- Footer -->
+       
             <footer id="footer">
                 <div class="themesflat-container">
                     <div class="row">
@@ -1141,11 +786,33 @@
                                     <div class="logo-footer" id="logo-footer">
                                         <a href="index.html">
                                             <img id="logo_footer" src="assets/images/logo/logouni.svg" 
-                                            data-retina="assets/images/logo/logo@2x.png">
+                                            data-retina="assets/images/logo/logouni.svg">
                                         </a>
+                                        <div class="visitor-counter">
+                                            <div class="counter-wrapper">
+                                                <div class="counter-graph">
+                                                    <canvas id="visitorGraph"></canvas>
+                                                </div>
+                                                <div class="digit-container">
+                                                    <div class="digit">
+                                                        <span id="thousandsDigit">0</span>
+                                                    </div>
+                                                    <div class="digit">
+                                                        <span id="hundredsDigit">0</span>
+                                                    </div>
+                                                    <div class="digit">
+                                                        <span id="tensDigit">0</span>
+                                                    </div>
+                                                    <div class="digit">
+                                                        <span id="onesDigit">1</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                   
                                 </div>
-                             
+                            
                                 
                             </div>
                         </div>
@@ -1162,12 +829,10 @@
                         </ul>
                     </div>
                 </div>
-            </footer><!-- /#footer -->
+            </footer>
            
         </div>
-        <!-- /#page -->
-
-        <!-- Modal Popup Bid -->
+ 
         <div class="modal fade popup" id="popup_bid" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -1217,11 +882,92 @@
     <script src="assets/js/SplitText.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/ScrollTrigger.js"></script>
-    <script src="assets/js/gsap-animation.js"></script>
+    <!-- <script src="assets/js/gsap-animation.js"></script> -->
     <script src="assets/js/tsparticles.min.js"></script>
-    <script src="assets/js/tsparticles.js"></script>
+    <!-- <script src="assets/js/tsparticles.js"></script> -->
     <script src="assets/js/main.js"></script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Función para obtener o crear el contador de visitas
+            function obtenerContador() {
+                let contador = localStorage.getItem('contadorVisitas');
+                
+                // Si no existe un contador previo, iniciamos en 1
+                if (!contador) {
+                    contador = 1;
+                } else {
+                    contador = parseInt(contador);
+                    
+                    // Incrementamos solo si es una nueva sesión
+                    if (!sessionStorage.getItem('yaContado')) {
+                        contador += 1;
+                    }
+                }
+                
+                // Marcamos esta sesión como ya contada
+                sessionStorage.setItem('yaContado', 'true');
+                
+                // Guardamos el nuevo valor
+                localStorage.setItem('contadorVisitas', contador);
+                
+                return contador;
+            }
+            
+            // Función para actualizar la visualización del contador
+            function actualizarContador() {
+                const contador = obtenerContador();
+                
+                // Actualizamos los dígitos
+                document.getElementById('thousandsDigit').textContent = Math.floor(contador / 1000) % 10;
+                document.getElementById('hundredsDigit').textContent = Math.floor(contador / 100) % 10;
+                document.getElementById('tensDigit').textContent = Math.floor(contador / 10) % 10;
+                document.getElementById('onesDigit').textContent = contador % 10;
+                
+                // Dibujamos el gráfico
+                dibujarGrafico();
+            }
+            
+            // Función para dibujar un gráfico simple
+            function dibujarGrafico() {
+                const canvas = document.getElementById('visitorGraph');
+                const ctx = canvas.getContext('2d');
+                
+                // Configuramos dimensiones del canvas
+                canvas.width = 100;
+                canvas.height = 40;
+                
+                // Limpiamos el canvas
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                
+                // Dibujamos el fondo del gráfico
+                ctx.fillStyle = '#f5f5f5';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                // Generamos puntos de datos aleatorios para el gráfico
+                const puntosDatos = [];
+                for (let i = 0; i < 20; i++) {
+                    puntosDatos.push(Math.random() * 20 + 5);
+                }
+                
+                // Dibujamos las líneas del gráfico
+                ctx.beginPath();
+                ctx.moveTo(0, canvas.height - puntosDatos[0]);
+                
+                for (let i = 1; i < puntosDatos.length; i++) {
+                    const x = (i / (puntosDatos.length - 1)) * canvas.width;
+                    const y = canvas.height - puntosDatos[i];
+                    ctx.lineTo(x, y);
+                }
+                
+                ctx.strokeStyle = '#333';
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+            
+            // Inicializamos el contador cuando se carga la página
+            actualizarContador();
+        });
+    </script>
 </body>
 
 </html>
