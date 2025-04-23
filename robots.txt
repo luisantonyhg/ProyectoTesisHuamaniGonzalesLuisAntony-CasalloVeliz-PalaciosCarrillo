@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://luisantonyhg.github.io/ProyectoTesisHuamaniGonzalesLuisAntony-CasalloVeliz-PalaciosCarrillo/sitemap.xml
