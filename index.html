@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/logo/icono.png" type="image/x-icon">
 
     <!-- Título que aparecerá en Google -->
     <title>Proyecto de Tesis - Huamani Gonzales Luis Antony | Casallo Veliz Jhusbeth | Palacios Carrillo</title>
@@ -79,6 +80,162 @@
         font-weight: bold;
         border-radius: 3px;
     }
+   
+    /* Estilos responsivos para la tabla de cronograma - con ajuste de texto */
+.schedule-table-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+/* Estilos base de la tabla */
+.schedule-table-container table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: white;
+    background-color: #111;
+}
+
+/* Ajustes generales para celdas */
+.schedule-table-container table th, 
+.schedule-table-container table td {
+    border: 1px solid #333;
+    padding: 8px 5px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 13px;
+    word-wrap: break-word;
+    max-width: 150px; /* limitar ancho máximo */
+}
+
+/* Números de semana */
+.schedule-table-container table td:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffcc00;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+/* Cabecera de tabla */
+.schedule-table-container table th {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    white-space: nowrap;
+    padding: 10px 5px;
+}
+
+/* Ajustes para botones */
+.schedule-table-container .btn-secondary {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.schedule-table-container .btn-secondary img {
+    height: 25px;
+    margin-left: 0 !important;
+    margin-bottom: 2px;
+}
+
+.schedule-table-container .btn-secondary .inner {
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+/* Estilos para pantallas medianas y pequeñas */
+@media screen and (max-width: 768px) {
+    /* Hacer fijar la primera columna (semanas) */
+    .schedule-table-container table th:first-child,
+    .schedule-table-container table td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        background-color: inherit;
+    }
+    
+    .schedule-table-container table th:first-child {
+        background-color: #222;
+    }
+    
+    .schedule-table-container table td:first-child {
+        background-color: #111;
+    }
+    
+    /* Ajustes de tamaño */
+    .schedule-table-container table th, 
+    .schedule-table-container table td {
+        font-size: 12px;
+        padding: 6px 4px;
+    }
+    
+    /* Contenido de las celdas */
+    .schedule-table-container table td:not(:first-child) {
+        font-size: 11px;
+    }
+    
+    /* Botones más pequeños y compactos */
+    .schedule-table-container .btn-secondary {
+        padding: 3px;
+        margin-bottom: 3px;
+    }
+    
+    .schedule-table-container .btn-secondary img {
+        height: 20px;
+        margin-bottom: 2px;
+    }
+    
+    .schedule-table-container .btn-secondary .inner {
+        font-size: 9px;
+    }
+}
+
+/* Ajustes adicionales para móviles muy pequeños */
+@media screen and (max-width: 480px) {
+    .schedule-table-container table th {
+        font-size: 10px;
+        padding: 5px 2px;
+    }
+    
+    .schedule-table-container table td {
+        font-size: 10px;
+        padding: 5px 2px;
+    }
+    
+    /* El número de semana más pequeño en móviles */
+    .schedule-table-container table td:first-child {
+        font-size: 14px;
+        padding: 5px 2px;
+    }
+    
+    .schedule-table-container .btn-secondary img {
+        height: 18px;
+    }
+    
+    .schedule-table-container .btn-secondary .inner {
+        font-size: 8px;
+    }
+    
+    /* Ajuste para textos largos */
+    .schedule-table-container table td:nth-child(2) {
+        font-size: 9px;
+        line-height: 1.2;
+    }
+}
     </style>
 
 <body class="body">
@@ -122,23 +279,24 @@
                                     <div class="mobile-button">
                                         <span></span>
                                     </div><!-- /.mobile-button -->
-                                    
-                                    <nav id="main-nav" class="main-nav" style="margin-left: 120px; display: flex; align-items: center;">
-                                        <ul id="menu-primary-menu" class="menu">
-                                          
-                                            <li class="menu-item">
-                                                <a href="#inicioprinicipio">Inicio</a>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="#cronograma">Cronograma actividades</a>
-                                            </li>
-                                        </ul>
-                                    </nav><!-- /#main-nav -->
+                                
                                 
                                     <div class="flat-wallet flex">
                                         <div class="" id="wallet-header">
-                                            <a href="market-wallet.html" id="connectbtn" class="tf-button style-1">
-                                                <span>Nosotros</span>
+                                            <a href="#inicioprinicipio" id="connectbtn" class="tf-button style-1">
+                                                <span>Inicio</span>
+                                                <i class="icon-wa"></i>
+                                            </a>
+                                        </div>
+                                        <div class="" id="wallet-header">
+                                            <a href="#cronograma" id="connectbtn" class="tf-button style-1">
+                                                <span>Cronograma</span>
+                                                <i class="icon-wa"></i>
+                                            </a>
+                                        </div>
+                                        <div class="" id="wallet-header">
+                                            <a href="" id="connectbtn" class="tf-button style-1">
+                                                <span>Bienvenidos-2025</span>
                                                 <i class="icon-wa"></i>
                                             </a>
                                         </div>
@@ -187,21 +345,18 @@
                                 <h5 class="title-widget">Categories</h5>
                                 <ul>
                                     <li>
-                                        <div class="cate-item"><a href="#">Inicio</a></div>
+                                        <div class="cate-item"><a href="#inicioprinicipio">Inicio</a></div>
                                         <div class="number">(1)</div>
                                     </li>
                                     <li>
-                                        <div class="cate-item"><a href="#">Nosotros</a></div>
+                                        <div class="cate-item"><a href="#cronograma">Nosotros</a></div>
                                         <div class="number">(2)</div>
                                     </li>
                                     <li>
-                                        <div class="cate-item"><a href="#">Contactanos</a></div>
+                                        <div class="cate-item"><a href="#">Contáctanos</a></div>
                                         <div class="number">(3)</div>
                                     </li>
-                                    <li>
-                                        <div class="cate-item"><a href="#">Si te gusto dale like</a></div>
-                                        <div class="number">(4)</div>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                          
@@ -220,98 +375,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mobile-nav-wrap">
-                    <div class="overlay-mobile-nav"></div>
-                    <div class="inner-mobile-nav">
-                        <a href="index.html" rel="home" class="main-logo">
-                            <img id="mobile-logo_header" src="assets/images/logo/logouni.svg" data-retina="assets/images/logo/logouni.svg" style="width: 230px;">
-                        </a>
-                        <div class="mobile-nav-close">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
-                        </div>
-                        <nav id="mobile-main-nav" class="mobile-main-nav">
-                            <ul id="menu-mobile-menu" class="menu">
-                                <li class="menu-item menu-item-has-children-mobile current-menu-item">
-                                    <a class="item-menu-mobile">Home</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li class="menu-item"><a href="index.html">Home 1</a></li>
-                                        <li class="menu-item"><a href="home-2.html">Home 2</a></li>
-                                        <li class="menu-item current-item"><a href="home-3.html">Home 3</a></li>
-                                        <li class="menu-item"><a href="home-4.html">Home 4</a></li>
-                                        <li class="menu-item"><a href="home-5.html">Home 5</a></li>
-                                        <li class="menu-item"><a href="home-6.html">Home 6</a></li>
-                                        <li class="menu-item"><a href="home-7.html">Home 7</a></li>
-                                        <li class="menu-item"><a href="slider-3d.html">Slider 3d</a></li>
-                                        <li class="menu-item"><a href="slider-scroll.html">Slider Scroll</a></li>
-                                        <li class="menu-item"><a href="slider-animation.html">Slider Animation</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a class="item-menu-mobile" href="about-us.html">About us</a>
-                                </li>
-                                <li class="menu-item menu-item-has-children-mobile">
-                                    <a class="item-menu-mobile">Explore</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li class="menu-item"><a href="explore-1.html">Explore Style 1</a></li>
-                                        <li class="menu-item"><a href="explore-2.html">Explore Style 2</a></li>
-                                        <li class="menu-item"><a href="explore-3.html">Explore Style 3</a></li>
-                                        <li class="menu-item"><a href="explore-4.html">Explore Style 4</a></li>
-                                        <li class="menu-item"><a href="nft-detail-1.html">NFT Detail 1</a></li>
-                                        <li class="menu-item"><a href="nft-detail-2.html">NFT Detail 2</a></li>
-                                        <li class="menu-item"><a href="nft-detail-3.html">NFT Detail 3</a></li>
-                                        <li class="menu-item"><a href="ranking.html">Ranking</a></li>
-                                        <li class="menu-item"><a href="upcoming.html">Upcoming Projects</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children-mobile">
-                                    <a class="item-menu-mobile">Pages</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li class="menu-item"><a href="market.html">Market</a></li>
-                                        <li class="menu-item"><a href="market-create.html">Create</a></li>
-                                        <li class="menu-item"><a href="market-active-bid.html">Active Bid</a></li>
-                                        <li class="menu-item"><a href="market-explore.html">Explore</a></li>
-                                        <li class="menu-item"><a href="market-collection.html">My collection</a></li>
-                                        <li class="menu-item"><a href="market-favorite.html">My favorite</a></li>
-                                        <li class="menu-item"><a href="market-wallet.html">Wallet</a></li>
-                                        <li class="menu-item"><a href="market-history.html">History</a></li>
-                                        <li class="menu-item"><a href="market.html">Settings</a></li>
-                                        <li class="menu-item"><a href="author-1.html">Authors Style 1</a></li>
-                                        <li class="menu-item"><a href="author-2.html">Authors Style 2</a></li>
-                                        <li class="menu-item"><a href="terms-condition.html">Terms & Condition</a></li>
-                                        <li class="menu-item"><a href="no-result.html">No Result</a></li>
-                                        <li class="menu-item"><a href="faq.html">FAQs</a></li>
-                                        <li class="menu-item"><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li class="menu-item"><a href="maintenance.html">Maintenance</a></li>
-                                        <li class="menu-item"><a href="404.html">404</a></li>
-                                        <li class="menu-item"><a href="login.html">Login</a></li>
-                                        <li class="menu-item"><a href="sign-up.html">Sign up</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children-mobile">
-                                    <a class="item-menu-mobile">Blog</a>
-                                    <ul class="sub-menu-mobile">
-                                        <li class="menu-item"><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li class="menu-item"><a href="blog-grid-1.html">Blog Grid 1</a></li>
-                                        <li class="menu-item"><a href="blog-list.html">Blog List</a></li>
-                                        <li class="menu-item"><a href="blog-list-1.html">Blog List 1</a></li>
-                                        <li class="menu-item"><a href="blog-detail.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item">
-                                    <a class="item-menu-mobile" href="contact-us.html">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="widget-search mt-30">
-                            <form action="#" method="get" role="search" class="search-form relative">
-                                <input type="search" class="search-field style-1" placeholder="Search..." value="" name="s" title="Search for" required="">
-                                <button class="search search-submit" type="submit" title="Search">
-                                    <i class="icon-search"></i>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                
             </header>
 
             <div class="flat-pages-title-home3">
@@ -464,15 +528,14 @@
              
                 <div class="themesflat-container">
                     <div class="row">
-                        <div class="col-md-12">
-                            
-                            <div class="heading-section pb-30" style="justify-content: center;">
-                                <h1 class="tf-title">Cronograma de Actividades Semanales del Proceso de Investigación:
-
-                                </h1>
-                               
-                            </div>
-                        </div>
+                      <div class="col-md-12">
+    <div class="heading-section pb-30" style="display: flex; justify-content: center; align-items: center;">
+        <h1 class="tf-title" style="margin-right: 15px;">Cronograma de Actividades Semanales del Proceso de Investigación:</h1>
+       
+            <img src="assets/images/logo/icono.png" alt="Logo" width="60px"/>
+      
+    </div>
+</div>
              
                         <div class="schedule-table-container" style="
     width: 100%;
@@ -545,6 +608,7 @@
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src="assets/images/box-item/notas.png" alt="word" style="height: 40px; margin-left: 8px;" />
+                    <br>
                     <span class="inner">NOTAS</span>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -736,9 +800,9 @@
                     <img 
                                     src="assets/images/logo/viernessantos.jpeg" 
                                     alt="word" 
-                                    style="height: 25px; margin-left: 8px;"
+                                    style="height: 30px; margin-left: 8px;"
                                   />
-                    <span >JUEVES SANTOS</span>
+                  
                 </button>
                
             </div>
@@ -749,9 +813,9 @@
                     <img 
                                     src="assets/images/logo/juevessantos.jpg" 
                                     alt="word" 
-                                    style="height: 25px; margin-left: 8px;"
+                                    style="height: 30px; margin-left: 8px;"
                                   />
-                    <span >VIERNES SANTOS</span>
+                  
                 </button>
                
             </div>
@@ -954,14 +1018,14 @@ de revisión.
                             
                         </div>
                         <div class="logo-rotate">
-                           
+                            <img src="assets/images/logo/icono.png" alt="Logo" />
                         </div>
-                        <h2>Subscribe to our newsletter</h2>
-                        <p>Subscribe for our newsletter to stay in the loop</p>
+                        <h2>Bienvenido a nuestra página de recursos de tesis.</h2>
+                        <p>LIMA-PERU-2025</p>
                         <fieldset class="email">
-                            <input type="email" class="style-1" id="email" placeholder="Email address*" name="email" tabindex="2" value="" aria-required="true" required="">
+                            <input type="text" class="style-1" id="email" placeholder="Comentarios" name="email" tabindex="2" value="" aria-required="true" required="">
                         </fieldset>
-                        <a href class="tf-button style-1 h50">Subscribe<i class="icon-arrow-up-right2"></i></a>
+                        <a href class="tf-button style-1 h50">Enviar comentarios<i class="icon-arrow-up-right2"></i></a>
                     </div>
                 </div>
             </div>
